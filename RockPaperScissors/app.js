@@ -29,6 +29,7 @@ function generateComputerChoice() {
 
     // Update the display
     computerChoiceDisplay.innerHTML = computerChoice;
+
 }
 
 function getResult(){
@@ -56,7 +57,8 @@ function getResult(){
         result = "you lost"
     }
     
-    resultDisplay.innerHTML = result;
+    resultDisplay.innerHTML = result; 
 
 
 }
+
