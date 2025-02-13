@@ -5,3 +5,6 @@ function sayHello(){
 
     console.log(i);
 }
+
+//objects
+
