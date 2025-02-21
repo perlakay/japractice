@@ -43,3 +43,17 @@ while(guess !== num){
     }
 }
 }
+
+function arraystuff(arr, num1){
+    arr.shift();
+    arr.push(num1);
+    let arrtotal = 0;
+    for(i = 0; i<arr.length;i++){
+        arrtotal += arr[i];
+    }
+    let avg = arrtotal/arr.length;
+
+    console.log("array: "+ arr + "avg: " + avg);
+
+
+}
