@@ -17,4 +17,29 @@ const evenorodd= () => {
     else{
         console.log("your number is odd");
     }
-}//dont need a paramter beacsue we ask for input in the function 
+}//dont need a paramter beacsue we ask for input in the function
+
+//guesisng game 
+
+function guessinggame(){
+    num = Math.floor(Math.random()*100);
+
+    let guess = null;
+    
+while(guess !== num){
+    let input = prompt("guess a number");
+
+    guess = Number(input)
+    if (guess > num){
+        console.log("too high, guess again")
+
+    }
+    else if(guess < num){
+        console.log("guess too low, guess again ")
+    }
+    else{
+        console.log("you've got it!")
+        break;
+    }
+}
+}

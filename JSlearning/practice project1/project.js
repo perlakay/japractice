@@ -11,4 +11,6 @@ function generateColor() {
     }
     const rgbCode = `rgb(${colors[0]}, ${colors[1]}, ${colors[2]})`;
     document.body.style.backgroundColor = rgbCode;
+
+    
 }
